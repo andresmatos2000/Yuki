@@ -91,7 +91,6 @@ export default {
                     //console.log("ended");
                 }
                 this.loading = false;
-
             });
             //console.log(this.dates)
             } catch (error) {
@@ -105,6 +104,7 @@ export default {
 .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .table {
     flex-basis: 25%;

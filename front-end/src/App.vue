@@ -19,6 +19,8 @@
     <div id="footer">
       <hr>
       <a href="https://github.com/andresmatos2000/Yuki">Github</a>
+      <br>
+      <small>Spent 25hrs on the project</small>
     </div>
 
     </div>

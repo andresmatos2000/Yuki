@@ -8,10 +8,10 @@
       </div>
       <div class="nav-right">
       <router-link to="/account" style="text-decoration: none">
-      <span>{{this.$root.$data.initials}}</span>
+      <span v-if="this.$root.$data.user">{{this.$root.$data.initials}}</span>
       <img src="./assets/user.svg" alt="User Icon">
-      <span v-if="this.$root.$data.user" style="text-decoration: underline;margin-left:20%;" @click="logout">Logout</span>
       </router-link>
+      <a><span v-if="this.$root.$data.user" style="text-decoration: underline;margin-left:20%;cursor: pointer" @click="logout">Logout</span></a>
       </div>
     </div>
     <router-view/>
